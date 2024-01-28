@@ -1,38 +1,141 @@
-.App {
-  text-align: center;
+*{
+    margin: 0%;
+    padding: 0%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.parent{
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+   
+    height: 100%;
+    width: 100%;
+    
 }
+.container{
+    /*  border: 2px solid black; */
+    height: 500px;
+    width: 900px;
+    background-color: 373944;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color:antiquewhite;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    }
+#s{
+    width: 500px;
+    margin-top: 10px;
+    border-radius: 120px;
+    height: 30px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.f{
+    position: fixed;
+    bottom: 0%;
+    
+    
 }
-
-.App-link {
-  color: #61dafb;
+.f table tr td{
+    text-align: start;
+    color: rgb(255, 255, 255);
+    height: 50px;
+    width: 500px;
+    /* border: 2px solid black; */
 }
+#a{
+    background-color: #7e06c9;
+}
+#b{
+    background-color: #000000;
+}
+#c{
+    background-color: #5be88c;
+}
+#d{
+    background-color: #8552cc;
+}
+#e{
+    background-color: #e9d66a;
+}
+#f{
+    background-color: #7e06c9;
+}
+.container select option tr td{
+    width: 60px;
+}
+.qqq{
+    width: 150px;
+    background-color: #11c15d;
+    
+}
+.cus{
+    /* border: 2px solid black; */
+    height: 280px;
+    width: 500px;
+    margin-left: 30px;
+    background-color:rgba(245, 235, 223, 0.806);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
+}
+.p{
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 600px;
+    gap: 10px;
+    
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.pp{
+    /* border: 2px solid black; */
+    height: 120px;
+    width: 500px;
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color:rgba(245, 235, 223, 0.806);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.qq{
+    text-align: center;
+}
+#mo{
+    margin-left: 250px;
+}
+.am{
+    /* border: 2px solid black; */
+    height: 120px;
+    width: 500px;
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color:rgba(245, 235, 223, 0.806);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.bu{
+    /* border: 2px solid black; */
+    height: 100px;
+    width: 500px;
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color:rgba(245, 235, 223, 0.806);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+#bv1{
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 80px;
+    background-color: #2a3191;
+    color: white;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+#bv2{
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 80px;
+    background-color: #5fcf6c;
+    color: white;
+
+}
+#ta{
+    height: 50px    ;
+    width: 100%;
+    background-color: #e46e6e;
+    margin-top: 5px;
 }

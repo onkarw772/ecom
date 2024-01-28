@@ -1,0 +1,35 @@
+[
+  {},
+  {
+    "name": "onkar",
+    "mobile_number": "  8010918458",
+    "address": "akluj",
+    "credit": 100
+  },
+  {
+    "name": "sultan",
+    "mobile_number": "0123456789",
+    "address": "malshiras",
+    "credit": 110
+  },
+  {
+    "name": "chikya",
+    "mobile_number": "9874563210",
+    "address": "phaltan",
+    "credit": 140
+  },
+
+  {
+    "name": "suraj",
+    "mobile_number": "3123648894",
+    "address": "pupne",
+    "credit": 100
+  },
+
+  {
+    "name": "raj",
+    "mobile_number": "56461946",
+    "address": "mumbai",
+    "credit": 100
+  }
+]
